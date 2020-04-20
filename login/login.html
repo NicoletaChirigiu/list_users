@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users list - Login Page</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="log-page">
+    <form class="log-form" action="">
+      <div class="user-sign-in-up-title">User Sign In</div>
+      <div class="log-email log">
+        <i class="fa fa-envelope icon"></i>
+        <input
+          type="email"
+          id="signin-email"
+          name="email"
+          placeholder="EMAIL"
+          required
+        />
+      </div>
+      <div class="log-password log">
+        <i class="fa fa-key icon"></i>
+        <input
+          type="password"
+          id="signin-password"
+          name="password"
+          pattern="{4,}"
+          title="Your password must have at least 4 characters"
+          placeholder="PASSWORD"
+          required
+        />
+      </div>
+      <input class="submit" type="submit" value="LOGIN" />
+      <div id="register">
+        <span>Don't have an account? Sign Up</span>
+        <a href="/signup/register.html">here</a>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

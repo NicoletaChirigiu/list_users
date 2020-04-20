@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.log-page {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0.6)), to(rgba(0, 0, 0, 0.5))), url(/assets/pic/forest.jpg);
+  background-image: linear-gradient(rgba(0, 0, 1, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/pic/forest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.log-form {
+  background-color: rgba(51, 100, 51, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  width: 50%;
+  -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+          box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+  border-radius: 10px;
+}
+
+.log-form a {
+  color: #000;
+}
+
+.log-form a:hover {
+  color: greenyellow;
+}
+
+.log-form .user-sign-in-up-title {
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+.log-form .log-email {
+  margin: 10px;
+}
+
+.log-form .log-email input {
+  padding: 5px;
+}
+
+.log-form .log {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.log-form .log input {
+  background-color: rgba(51, 100, 51, 0.7);
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+.log-form .log .icon {
+  padding: 5px;
+}
+
+.log-form .submit {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  background-color: #066806;
+  border: none;
+}
+
+.log-form .submit:hover {
+  cursor: pointer;
+  background-color: #407405;
+}
+/*# sourceMappingURL=styles.css.map */
