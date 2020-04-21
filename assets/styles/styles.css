@@ -61,18 +61,11 @@ a {
   font-size: larger;
 }
 
-.log-form .log-email {
-  margin: 10px;
-}
-
-.log-form .log-email input {
-  padding: 5px;
-}
-
 .log-form .log {
   border: 1px solid black;
   border-radius: 10px;
   width: 80%;
+  margin: 5px;
 }
 
 .log-form .log input {
@@ -80,6 +73,7 @@ a {
   padding: 5px;
   outline: none;
   border: none;
+  min-width: 90%;
 }
 
 .log-form .log .icon {
@@ -92,10 +86,131 @@ a {
   width: 80%;
   background-color: #066806;
   border: none;
+  border-radius: 10px;
 }
 
 .log-form .submit:hover {
   cursor: pointer;
   background-color: #407405;
+}
+
+.users-page {
+  height: 100vh;
+  background-color: #08e1ae;
+  background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+}
+
+.users-page .sign-in-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.users-page .sign-in-up a {
+  color: #000;
+  margin: 5px;
+}
+
+.users-page .sign-in-up a:hover {
+  color: blue;
+}
+
+.users-page .user-list-title {
+  font-size: larger;
+  text-align: center;
+  padding: 30px;
+}
+
+.users-page #create-user-btn {
+  background-color: #229150;
+  border: none;
+  width: 15%;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.users-page #create-user-btn:hover {
+  cursor: pointer;
+  background-color: #29bb66;
+}
+
+.users-page .list-of-users {
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+}
+
+.users-page .list-of-users #user-edit {
+  color: #000;
+}
+
+.users-page .list-of-users #user-edit:hover {
+  color: red;
+}
+
+/* create user css */
+#user-list-page {
+  display: block;
+  text-align: right;
+  padding: 10px;
+  font-size: small;
+}
+
+#user-list-page:hover {
+  color: cyan;
+}
+
+.edit-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.edit-user .edit-user-input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.edit-user .edit-user-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+.edit-user .edit-user-btn input {
+  border: none;
+  border-radius: 2px;
+  background-color: #008b50;
+  margin: 2px;
+  padding: 5px;
+}
+
+.edit-user .edit-user-btn input:hover {
+  cursor: pointer;
+  background-color: #008b2a;
 }
 /*# sourceMappingURL=styles.css.map */

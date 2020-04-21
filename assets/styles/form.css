@@ -48,18 +48,11 @@
   font-size: larger;
 }
 
-.log-form .log-email {
-  margin: 10px;
-}
-
-.log-form .log-email input {
-  padding: 5px;
-}
-
 .log-form .log {
   border: 1px solid black;
   border-radius: 10px;
   width: 80%;
+  margin: 5px;
 }
 
 .log-form .log input {
@@ -67,6 +60,7 @@
   padding: 5px;
   outline: none;
   border: none;
+  min-width: 90%;
 }
 
 .log-form .log .icon {
@@ -79,6 +73,7 @@
   width: 80%;
   background-color: #066806;
   border: none;
+  border-radius: 10px;
 }
 
 .log-form .submit:hover {
