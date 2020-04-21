@@ -1,0 +1,54 @@
+#user-list-page {
+  display: block;
+  text-align: right;
+  padding: 10px;
+  font-size: small;
+}
+
+#user-list-page:hover {
+  color: cyan;
+}
+
+.edit-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.edit-user .edit-user-input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.edit-user .edit-user-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+.edit-user .edit-user-btn input {
+  border: none;
+  border-radius: 2px;
+  background-color: #008b50;
+  margin: 2px;
+  padding: 5px;
+}
+
+.edit-user .edit-user-btn input:hover {
+  cursor: pointer;
+  background-color: #008b2a;
+}
+/*# sourceMappingURL=edit-user.css.map */

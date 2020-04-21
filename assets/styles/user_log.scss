@@ -1,3 +1,5 @@
+/* Log in and register pages*/
+
 .log-page {
   background-image: linear-gradient(rgba(0, 0, 0.5, 0.6), rgba(0, 0, 0, 0.5)),
     url(/assets/pic/forest.jpg);
@@ -7,6 +9,7 @@
   position: relative;
   height: 100vh;
 }
+
 .log-form {
   background-color: rgba(51, 100, 51, 0.7);
   position: absolute;
@@ -32,7 +35,7 @@
     margin-bottom: 20px;
     font-size: larger;
   }
-    .log {
+  .log {
     border: 1px solid black;
     border-radius: 10px;
     width: 80%;
@@ -44,7 +47,6 @@
       outline: none;
       border: none;
       min-width: 90%;
-
     }
     .icon {
       padding: 5px;
@@ -59,8 +61,7 @@
     border-radius: 10px;
     &:hover {
       cursor: pointer;
-      background-color: rgb(64, 116, 5);;
+      background-color: rgb(64, 116, 5);
     }
   }
 }
-

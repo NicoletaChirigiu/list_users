@@ -1,3 +1,4 @@
+/* Log in and register pages*/
 .log-page {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0.6)), to(rgba(0, 0, 0, 0.5))), url(/assets/pic/forest.jpg);
   background-image: linear-gradient(rgba(0, 0, 1, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/pic/forest.jpg);
@@ -80,4 +81,4 @@
   cursor: pointer;
   background-color: #407405;
 }
-/*# sourceMappingURL=form.css.map */
+/*# sourceMappingURL=user_log.css.map */
