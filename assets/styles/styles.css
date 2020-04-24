@@ -88,6 +88,7 @@ a {
   background-color: #066806;
   border: none;
   border-radius: 10px;
+  text-align: center;
 }
 
 .log-form .submit:hover {
@@ -95,6 +96,7 @@ a {
   background-color: #407405;
 }
 
+/* list of users page */
 .users-page {
   height: 100vh;
   background-color: #08e1ae;
@@ -160,6 +162,7 @@ a {
   color: red;
 }
 
+/* edit users page*/
 #user-list-page {
   display: block;
   text-align: right;

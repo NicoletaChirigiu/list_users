@@ -75,6 +75,7 @@
   background-color: #066806;
   border: none;
   border-radius: 10px;
+  text-align: center;
 }
 
 .log-form .submit:hover {
